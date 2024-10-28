@@ -9,7 +9,7 @@ public class PostDeliveryStrategy implements Delivery{
     @Getter
     private String description;
     public PostDeliveryStrategy(){
-        this.description = "Post Delivery";
+        this.description = "By Post Delivery";
     }
     public String deliver(List<Item> items) {return "Delivered " + items.size() + " items; " + description;}
 }

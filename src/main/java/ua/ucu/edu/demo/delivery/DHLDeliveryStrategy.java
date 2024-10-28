@@ -9,7 +9,7 @@ public class DHLDeliveryStrategy {
     @Getter
     private String description;
     public DHLDeliveryStrategy(){
-        this.description = "DHLDelivery";
+        this.description = "By DHL Delivery";
     }
     public String deliver(List<Item> items) {return "Delivered " + items.size() + " items; " + description;}
 }
